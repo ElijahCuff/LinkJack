@@ -1,9 +1,6 @@
 Linkjack
 ======
-** LinkJack was originally designed for a security report to facebook, however it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. [domain.tld](http://domain.tld).
-
-## Domains
-* see [CNAME](https://github.com/username/username.github.io/blob/master/CNAME) file
+LinkJack was originally designed for a security report to facebook, however it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services.
 
 ## Technology
 * BootStrap 4
@@ -16,4 +13,8 @@ Linkjack
 * [Analytics Software](http://link-to-e.g.-google-analytics)
 
 
-[![demo button](http://api.flattr.com/button/flattr-badge-large.png)](https://naxlo.ml/app/linkly) 
+## Installation
+* see [](https://github.com/username/username.github.io/blob/master/CNAME) file
+
+
+[![demo button](https://i.imgur.com/D1im9FI.png)](https://naxlo.ml/app/linkly) 
