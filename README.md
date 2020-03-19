@@ -7,11 +7,11 @@ LinkJack was originally designed for a security report to facebook, however it h
 * BootStrap 4
 * jQuery
 
-## Design & Theme ( MIT Licensed )
-* [Mobirise](https://mobirise.com)
+## Design & Theme 
+MIT Licensed Design
+* see [Mobirise](https://mobirise.com) for more information on the software used to buil link Jack's html frontend.
 
 ## Installation
-* see [Mobirise](https://mobirise.com) for more information on the software used to buil link Jack's html frontend.
 
 
 [![demo button](https://i.imgur.com/D1im9FI.png)](https://naxlo.ml/app/linkly) 
