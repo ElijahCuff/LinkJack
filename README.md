@@ -3,18 +3,15 @@ Linkjack
 LinkJack was originally designed for a security report to facebook, however it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services.
 
 ## Technology
+* PHP 7
 * BootStrap 4
-* Themes
-* JS frameworks, e.g. jQuery
-* IconSets, e.g. Glyphicons
-* [GitHub Pages](http://pages.github.com/)
-* [robots.txt](https://github.com/username/username.github.io/blob/master/robots.txt)
-* [Google Webmaster](http://www.google.com/webmasters/)
-* [Analytics Software](http://link-to-e.g.-google-analytics)
+* jQuery
 
+## Design & Theme ( MIT Licensed )
+* [Mobirise](https://mobirise.com)
 
 ## Installation
-* see [](https://github.com/username/username.github.io/blob/master/CNAME) file
+* see [Mobirise](https://mobirise.com) for more information on the software used to buil link Jack's html frontend.
 
 
 [![demo button](https://i.imgur.com/D1im9FI.png)](https://naxlo.ml/app/linkly) 
