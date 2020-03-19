@@ -10,11 +10,6 @@ LinkJack is a customizable URL shortening service that has advanced device recog
 * BootStrap 4
 * jQuery
 
-
-## Design & Theme 
-MIT Licensed Design
-> See [Mobirise](https://mobirise.com) for more information on the software used to build LinkJack's html frontend.
-
 ## Installation
 * The project is a self installing website that uses the config.php file included by all other php files to create a universal installation configuration script.
 * Edit the **config.php** file to suite your installation environment.
