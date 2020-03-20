@@ -17,6 +17,10 @@ LinkJack is a customizable URL shortening service that has advanced device recog
 * Place the files onto your host and open the **home.php** file using a web browsers - this will initialize the **config.php** file 
 * After the **config.php** has created necessary files and folders for the environment, you're all good to start using.
 
+## Development Notes
+### Security Improvement
+I built and distributed the entire project by myself in about 3 days, so please keep that in mind - it needs a thorough run through for security with proper sanitization of input and descriptions.
+
 ## Usage
 ### Create A Link
 * Open the **Add Link** Page
@@ -44,3 +48,4 @@ LinkJack is a customizable URL shortening service that has advanced device recog
 ## Design & Theme 
 MIT Licensed Design
 > See [Mobirise](https://mobirise.com) for more information on the software used to build LinkJack's html frontend.
+* I've added the project file so you can keep working on the same theme.
