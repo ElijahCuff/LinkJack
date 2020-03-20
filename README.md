@@ -2,6 +2,8 @@ Linkjack
 ======
 LinkJack is a customizable URL shortening service that has advanced device recognition features for anybody that loads a shortened link.
 
+![screen](https://i.imgur.com/CetGtaL.jpg)
+
 ## History
 > This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
 
@@ -41,11 +43,28 @@ I built and distributed the entire project by myself in about 3 days, so please 
 * Enter Your Private Key ( Link PIN )
 * Press **Remove Link**
 
-### Live Demo
-[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
 
+## Page Screenshots
+### Get Link
+![screen](https://i.imgur.com/dtBXBzR.jpg)
+
+### Link Stats Key Check
+![screen](https://i.imgur.com/Sh5m5he.jpg)
+
+### Link Stats 
+![screen](https://i.imgur.com/cusF2xO.jpg)
+
+
+### Remove Link 
+![screen](https://i.imgur.com/UGtYzru.jpg)
 
 ## Design & Theme 
 MIT Licensed Design
 > See [Mobirise](https://mobirise.com) for more information on the software used to build LinkJack's html frontend.
 * I've added the project file so you can keep working on the same theme.
+
+
+
+
+### Live Demo
+[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
