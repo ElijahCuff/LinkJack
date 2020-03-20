@@ -38,7 +38,7 @@ LinkJack is a customizable URL shortening service that has advanced device recog
 * Press **Remove Link**
 
 ### Live Demo
-[![demo button](https://i.imgur.com/D1im9FI.png)](https://naxlo.ml/app/linkly) 
+[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
 
 
 ## Design & Theme 
