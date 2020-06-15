@@ -58,6 +58,14 @@ I built and distributed the entire project by myself in about 3 days, so please 
 ### Remove Link 
 ![screen](https://i.imgur.com/UGtYzru.jpg)
 
+
+### Origin Report Graphic 
+![screen](https://github.com/WokeWorld/LinkJack/blob/master/IMG_20200310_084516.jpg)
+
+
+### Response on Report Danger
+![screen](https://github.com/WokeWorld/LinkJack/blob/master/Screenshot_2020-06-15-13-02-56.jpg)
+
 ## Design & Theme 
 MIT Licensed Design
 > See [Mobirise](https://mobirise.com) for more information on the software used to build LinkJack's html frontend.
