@@ -6,6 +6,7 @@ LinkJack is a customizable URL shortening service that has advanced device recog
 
 ## History
 > This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
+thanks to the security research efforts of Elijah C.
 
 ## Technology
 * PHP 7
@@ -73,6 +74,10 @@ MIT Licensed Design
 
 
 
-
-### Live Demo
+### Live Demo - Spoofing Disabled
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
+
+
+### Live Demo - New Design by Elijah C.
+[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](http://cooldude.getenjoyment.net) 
+
