@@ -1,5 +1,5 @@
 # Linkjack
-======
+=
 ## LinkJack is a customizable URL shortening service that has advanced device recognition features for anybody that loads a shortened link.
 
 ![screen](https://i.imgur.com/CetGtaL.jpg)
