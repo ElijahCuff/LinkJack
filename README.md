@@ -76,8 +76,3 @@ MIT Licensed Design
 
 ### Live Demo - Spoofing Disabled
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
-
-
-### Live Demo - New Design by Elijah C.
-[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](http://cooldude.getenjoyment.net) 
-
