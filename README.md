@@ -6,7 +6,7 @@
 
 ## History
 > This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
-thanks to the security research efforts of Elijah C.
+thanks to the security research efforts of WokeWorld.
 
 ## Technology
 * PHP 7
