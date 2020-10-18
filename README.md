@@ -1,4 +1,4 @@
-# Linkjack
+# Link Stats - formerly Link Jack.
 
 ## LinkJack is a customizable URL Honey Trap System that has advanced device recognition features for anybody that loads a constructed link.
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://linkstats.ml) 
