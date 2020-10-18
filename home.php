@@ -31,8 +31,8 @@
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Link Stats</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Get Detailed Information On Your Loads</h3>
-                
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-2 mbr-fonts-style display-5">A World's First Public Honeytrap System</h3>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5" style="font-size:16px;">Link Stats is NOT a url shortening service, but a powerful honey trap system strictly for cyber security research and educational purposes only. for more information on the project, please visit the GitHub Project @ <a href="http://GitHub.com/WokeWorld/LinkJack">GitHub/WokeWorld/LinkJack</a></h3>
                 <div class="mbr-section-btn align-center"><a class="btn btn-white-outline display-4" href="add"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>ADD</a><a class="btn btn-white-outline display-4" href="getstats"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>GET STATS</a> <a class="btn btn-white-outline display-4" href="remove"><span class="mbri-trash mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>REMOVE</a></div>
             </div>
         </div>
