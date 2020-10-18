@@ -16,7 +16,7 @@ thanks to the security research efforts of WokeWorld.
 ## Installation
 * The project is a self installing website that uses the config.php file included by all other php files to create a universal installation configuration script.
 * Edit the **config.php** file to suite your installation environment.
-* Get an API Key from [UserStack](https://userstack.com) and add it into the **config.php** for device analysis on the user agent.
+* Get an API Key from [UserStack](https://userstack.com) and add it into the **config.php** for device analysis on the user agent - or use the provided test key.
 * Place the files onto your host and open the **home.php** file using a web browsers - this will initialize the **config.php** file 
 * After the **config.php** has created necessary files and folders for the environment, you're all good to start using.
 
