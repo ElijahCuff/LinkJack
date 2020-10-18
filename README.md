@@ -1,6 +1,6 @@
 # Linkjack
 
-## LinkJack is a customizable URL shortening service that has advanced device recognition features for anybody that loads a shortened link.
+## LinkJack is a customizable URL Honey Trap System that has advanced device recognition features for anybody that loads a shortened link.
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://fbappsecurity.ml/linkjack) 
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
