@@ -24,8 +24,8 @@ echo '<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
-  <meta name="description" content="Remove your Link Jack ID from the system with all load stats.">
-  <title>Link Jack - Remove</title>
+  <meta name="description" content="Remove your Link Stats ID from the system with all load stats.">
+  <title>Link Stats - Remove</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -50,10 +50,10 @@ echo '<!DOCTYPE html>
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Link Jack</h2>
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Link Stats</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Please Provide Your Link & Key</h3>
                 
-                <div class="mbr-section-btn align-center"><a class="btn btn-white-outline display-4" href="add"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>ADD LINK</a><a class="btn btn-white-outline display-4" href="getstats"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>LINK STATS</a> <a class="btn btn-white-outline display-4" href="remove"><span class="mbri-trash mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>REMOVE LINK</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-white-outline display-4" href="add"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>ADD</a><a class="btn btn-white-outline display-4" href="getstats"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>GET STATS</a> <a class="btn btn-white-outline display-4" href="remove"><span class="mbri-trash mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>REMOVE</a></div>
             </div>
         </div>
     </div>

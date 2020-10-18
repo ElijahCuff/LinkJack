@@ -1,14 +1,12 @@
-<?php
-include ('config.php');
-echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html >
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
-  <meta name="description" content="Link Jack Homepage">
-  <title>Link Jack</title>
+  <meta name="description" content="Link Stats Homepage">
+  <title>Link Stats</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -32,10 +30,10 @@ echo '<!DOCTYPE html>
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Link Jack</h2>
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Link Stats</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Get Detailed Information On Your Loads</h3>
                 
-                <div class="mbr-section-btn align-center"><a class="btn btn-white-outline display-4" href="add"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>ADD LINK</a><a class="btn btn-white-outline display-4" href="getstats"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>LINK STATS</a> <a class="btn btn-white-outline display-4" href="remove"><span class="mbri-trash mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>REMOVE LINK</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-white-outline display-4" href="add"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>ADD</a><a class="btn btn-white-outline display-4" href="getstats"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>GET STATS</a> <a class="btn btn-white-outline display-4" href="remove"><span class="mbri-trash mbr-iconfont mbr-iconfont-btn" style="color: rgb(255, 129, 0);"></span>REMOVE</a></div>
             </div>
         </div>
     </div>
@@ -48,9 +46,9 @@ echo '<!DOCTYPE html>
         <div class="media-container-row">
             <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
                 <ol>
-                    <li><strong>Make</strong><br>To make Link Jack more effective, we use a unique ID System that will create your link when loading - get an ID and Private Key on the "Add Link" Page.</li>
-                    <li><strong>Test</strong><br>Once you\'ve got a link ID, you can test your first load by simply pressing paste in the URL Bar.</li>
-                    <li><strong>Share</strong><br>Share your new link with a group or someone in particular.</li><li><strong>Monitor</strong><br>To monitor your statistics,<br>• Open the "Link Stats" page.<br>• Enter your Link along with the Private Key.<br> • Press Get Stats.</li><li><strong>Delete</strong><br>You\'ll need your link ID to remove a saved link - links are supposed to be temporary, so please delete them on the "Remove Link" page after you\'re done.</li>
+                    <li><strong>Make</strong><br>To make Link Stats more effective, we use a unique ID System that will create your link when loading - get an ID and Private Key on the "Add Link" Page.</li>
+                    <li><strong>Test</strong><br>Once you've got a link ID, you can test your first load by simply pressing paste in the URL Bar.</li>
+                    <li><strong>Share</strong><br>Share your new link with a group or someone in particular.</li><li><strong>Monitor</strong><br>To monitor your statistics,<br>• Open the "Link Stats" page.<br>• Enter your Link along with the Private Key.<br> • Press Get Stats.</li><li><strong>Delete</strong><br>You'll need your link ID to remove a saved link - links are supposed to be temporary, so please delete them on the "Remove Link" page after you're done.</li>
                 </ol>
             </div>
         </div>
@@ -155,7 +153,7 @@ echo '<!DOCTYPE html>
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">Copyright © 2020 Link Jack - All Rights Reserved<br>
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">Copyright © 2020 Link Stats - All Rights Reserved<br>
  <a class="display-4" href="privacy">PRIVACY POLICY</a>
  <a class="display-4" href="terms">TERMS OF SERVICE</a>
                 </p>
@@ -175,5 +173,4 @@ echo '<!DOCTYPE html>
   
   
 </body>
-</html>';
-?>
+</html>

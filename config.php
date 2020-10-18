@@ -9,7 +9,7 @@
 #                                                                                   #
 ###################################
 **/
-// This File will be used for the global configuration of Link Jack
+// This File will be used for the global configuration of Link Stats
 // the .htaccess will be generated from here to match changes
 
 //***************
