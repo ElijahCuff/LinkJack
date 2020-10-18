@@ -1,7 +1,7 @@
 # Linkjack
 
 ## LinkJack is a customizable URL shortening service that has advanced device recognition features for anybody that loads a shortened link.
-
+[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](fbappsecurity.ml/linkjack) 
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
 ## History
@@ -73,6 +73,3 @@ MIT Licensed Design
 * I've added the project file so you can keep working on the same theme.
 
 
-
-### Live Demo - Spoofing Disabled
-[![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://naxlo.ml/app/linkly) 
