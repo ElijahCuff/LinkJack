@@ -45,7 +45,9 @@ else
 
 function four04()
 {
-  redirect("home");
+  $data = file_get_contents('home.php');
+  echo $data;
+  exit;
 }
 
 

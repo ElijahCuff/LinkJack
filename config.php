@@ -41,11 +41,11 @@ $logsFolderName = "pit";
 // *****************************
 // *   allow target URL to be used  
 // *****************************
-$allowTargetURL = false;
+$allowTargetURL = true;
 // *****************************
 // *   Do Not Log Repeated Visitors 
 // *****************************
-$useUniqueLogs = true;
+$useUniqueLogs = false;
 
 // *****************
 // *  stats URL part 
@@ -57,7 +57,7 @@ $statsUrlPart = "info";
 // ******************************
 // *  userKey for api.userstack
 // ******************************
-$userStackApiKey = "";
+$userStackApiKey = "f72b58b8f09ada350ced485b2444bdb8";
 
 
 // *********************************
@@ -93,15 +93,14 @@ DirectoryIndex index.php
 Options -Indexes
 # stop log and target views
 RewriteRule ^('.str_replace(".","\\.",$targetsListFileName).'|'.str_replace(".","\\.",$targetsFileName).'|'.str_replace(".","\\.",$defaultsFileName).') - [R=404,L]
-ErrorDocument 404 '.$rootPath.'/home.html
+ErrorDocument 404 '.$rootPath.'/home.php
 #
 # remove .php
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
-#
-# remove .html
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule !.*\.php$ %{REQUEST_FILENAME}.html [QSA,L]
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^(.*)\$ $1.php [NC]
 ';
  if (!file_exists($htaccessFile)) 
          {
