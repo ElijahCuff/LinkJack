@@ -81,11 +81,10 @@ $device = json_decode(getDeviceInfo($parts[1]),true);
 $os = $device['os']['name'];
 
 // GET THIS SERVERS DATE
-$date = new DateTime(date('m/d/Y h:i:s a', $parts[2]));
+$date = $parts[2];
+$now = time();
+$userLocalTime = timerFormat($now,$date);
 
-// FORMAT SERVER DATE DIFFERENCE
-$date->setTimezone(new DateTimeZone($viewersTimeZone));
-$userLocalTime = $date->format('D d M h:i a');
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -122,11 +121,10 @@ $device = json_decode(getDeviceInfo($parts[1]),true);
 $os = $device['os']['family'];
 
 // GET THIS SERVERS DATE
-$date = new DateTime(date('m/d/Y h:i:s a', $parts[2]));
-// FORMAT SERVER DATE DIFFERENCE
-$date->setTimezone(new DateTimeZone($viewersTimeZone));
-$userLocalTime = $date->format('D/M h:i a');
-//m/d/Y h:i:s a
+$date = $parts[2];
+$now = time();
+$userLocalTime = timerFormat($now,$date);
+
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -378,6 +376,30 @@ Accepted Params,
 **/
 
 
+}
+
+
+function timerFormat($start_time, $end_time, $std_format = false)
+{       
+$total_time = $end_time - $start_time;
+$days       = floor($total_time /86400);        
+$hours      = floor($total_time /3600);     
+$minutes    = intval(($total_time/60) % 60);        
+$seconds    = intval($total_time % 60);     
+$results = "";
+if($std_format == false)
+{
+  if($days > 0) $results .= $days . (($days > 1)?" days ":" day ");     
+  if($hours > 0) $results .= $hours . (($hours > 1)?" hours ":" hour ");        
+  if($minutes > 0) $results .= $minutes . (($minutes > 1)?" minutes ":" minute ");
+  if($seconds > 0) $results .= $seconds . (($seconds > 1)?" seconds ":" second ");
+}
+else
+{
+  if($days > 0) $results = $days . (($days > 1)?" days ":" day ");
+  $results = sprintf("%s%02d:%02d:%02d",$results,$hours,$minutes,$seconds);
+}
+return $results;
 }
 
 
