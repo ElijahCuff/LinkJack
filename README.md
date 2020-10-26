@@ -22,7 +22,7 @@ thanks to the security research efforts of Venomo under the WokeWorld Project 20
 
 
 ### Heroku Deployment
-#### Heroku runs under CGI environment and some things have been changed to work wit Heroku, the Time will now be displayed in (Seconds Ago) and the IP address information is still not loading from the API.   
+#### Heroku runs under CGI environment and some things have been changed to work with Heroku, the Time will now be displayed in (Seconds Ago) and the IP address information is still not loading from the API.   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)        
 Create a FREE account first if you do not yet have one:  
 https://signup.heroku.com/    
