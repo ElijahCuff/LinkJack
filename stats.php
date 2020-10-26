@@ -73,7 +73,8 @@ $os = $device['os']['name'];
 
 // GET THIS SERVERS DATE
 $date = $parts[2];
-$userLocalTime = $date;
+$nowTime = time();
+$userLocalTime = timeFormat($date, $nowTime, true);
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -112,7 +113,8 @@ $os = $device['os']['family'];
 // GET THIS SERVERS DATE
 $date = $parts[2];
 $userLocalTime = $date;
-
+$nowTime = time();
+$userLocalTime = timeFormat($date, $nowTime, true);
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -366,7 +368,7 @@ Accepted Params,
 
 }
 
-function timerFormat($start_time, $end_time, $std_format = false)
+function timeFormat($start_time, $end_time, $std_format = false)
 {       
 $total_time = $end_time - $start_time;
 $days       = floor($total_time /86400);        
