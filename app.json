@@ -1,0 +1,6 @@
+{
+  "name": "PHP LinkJack",
+  "description": "PHP powered honeytrap and url spoofing system",
+  "repository": "https://github.com/WokeWorld/LinkJack/",
+  "keywords": ["click jacking", "facebook spoofing", "honeytrap"]
+}
