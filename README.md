@@ -26,7 +26,9 @@ thanks to the security research efforts of Venomo under the WokeWorld Project 20
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)        
 Create a FREE account first if you do not yet have one:  
 https://signup.heroku.com/    
-Heroku Demo Deployment https://linkstat.herokuapp.com/
+### Heroku Demo Deployment     
+#### Full featured heroku deployment, has issues loading additional ip address information
+https://linkstat.herokuapp.com/
 
 ## Development Notes
 ### Security Improvement
