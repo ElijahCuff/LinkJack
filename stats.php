@@ -16,7 +16,6 @@ $defaultURL = "";
 $failURL = "getstats?error";
 $apiKey = $userStackApiKey;
 $viewersIP = getIp();
-$viewersTimeZone = usersTimeZone();
 
 if(hasParam('ipID') && strlen($_POST['ipID']) > 6)
 {
