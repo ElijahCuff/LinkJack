@@ -77,15 +77,6 @@ $htaccess = file_get_contents($htaccessFile);
 if (needsUpdate())
 {
    $rules = '#
-# help with errors
-php_value display_errors On
-php_flag magic_quotes 1
-php_flag magic_quotes_gpc 1
-php_value mbstring.http_input auto
-#
-# set timezone
-php_value date.timezone Australia/Sydney
-#
 # set home to index.php
 DirectoryIndex index.php
 #
