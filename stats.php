@@ -379,9 +379,9 @@ $results = "";
 if($std_format == false)
 {
   if($days > 0) $results .= $days . (($days > 1)?" days ":" day ");     
-  if($hours > 0) $results .= $hours . (($hours > 1)?" hours ":" hour ");        
-  if($minutes > 0) $results .= $minutes . (($minutes > 1)?" minutes ":" minute ");
-  if($seconds > 0) $results .= $seconds . (($seconds > 1)?" seconds ":" second ");
+  if($hours > 0) $results .= $hours . (($hours > 1)?" h ":" hour ");        
+  if($minutes > 0) $results .= $minutes . (($minutes > 1)?" m ":" min ");
+  if($seconds > 0) $results .= $seconds . (($seconds > 1)?" s ":" s ");
 }
 else
 {
