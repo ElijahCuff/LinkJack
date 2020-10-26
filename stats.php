@@ -476,7 +476,15 @@ crawler > last_seen
 
 function getIp() 
 {
-   return (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:getUserIpAddr());
+   $ip = (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:getUserIpAddr());
+   if (strlen($ip) > 1)
+   {
+     return $ip;
+   }
+   else
+   {
+     return $_ENV['HTTP_X_FORWARDED_FOR'];
+   }
 }
 
 function getUserIpAddr(){
