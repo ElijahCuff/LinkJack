@@ -74,7 +74,7 @@ $os = $device['os']['name'];
 // GET THIS SERVERS DATE
 $date = $parts[2];
 $nowTime = time();
-$userLocalTime = timeFormat($date, $nowTime, true);
+$userLocalTime = timeFormat($date, $nowTime, false);
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -114,7 +114,7 @@ $os = $device['os']['family'];
 $date = $parts[2];
 $userLocalTime = $date;
 $nowTime = time();
-$userLocalTime = timeFormat($date, $nowTime, true);
+$userLocalTime = timeFormat($date, $nowTime, false);
 if(strlen($os) < 1)
 {
   $os = "BOT";
