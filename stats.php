@@ -18,14 +18,6 @@ $apiKey = $userStackApiKey;
 $viewersIP = getIp();
 $viewersTimeZone = usersTimeZone();
 
-function usersTimeZone()
-{
-     global $viewersIP;
-     $ch = file_get_contents('https://ipapi.co/'.$viewersIP.'/json/');
-     $ipParts = json_decode($ch,true);
-     return $ipParts['timezone'];
-}
-
 if(hasParam('ipID') && strlen($_POST['ipID']) > 6)
 {
    echo ipInfo($_POST['ipID'], $_POST['userID']);
