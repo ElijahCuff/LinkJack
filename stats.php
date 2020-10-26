@@ -73,9 +73,7 @@ $os = $device['os']['name'];
 
 // GET THIS SERVERS DATE
 $date = $parts[2];
-$now = time();
-$userLocalTime = timerFormat($now,$date);
-
+$userLocalTime = $date;
 if(strlen($os) < 1)
 {
   $os = "BOT";
@@ -113,8 +111,7 @@ $os = $device['os']['family'];
 
 // GET THIS SERVERS DATE
 $date = $parts[2];
-$now = time();
-$userLocalTime = timerFormat($now,$date);
+$userLocalTime = $date;
 
 if(strlen($os) < 1)
 {
@@ -368,7 +365,6 @@ Accepted Params,
 
 
 }
-
 
 function timerFormat($start_time, $end_time, $std_format = false)
 {       
