@@ -21,7 +21,7 @@ thanks to the security research efforts of Venomo under the WokeWorld Project 20
 * After the **config.php** has created necessary files and folders for the environment, you're all good to start using.
 
 
-### Heroku Deployment   
+### Heroku Deployment - Currently Under Development ( Stats.php needs work to exclude external requests )   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)        
 Create a FREE account first if you do not yet have one:  
 https://signup.heroku.com/    
