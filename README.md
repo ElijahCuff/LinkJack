@@ -35,6 +35,10 @@ Like Jacking Successful within H parameters Time Allowance, each H param is uniq
 GFID  Facebook GFID is also time limited to the same cookie expirations.
    
 
+## Facebook Post Spoofing   
+* Set Target as ( Facebook, FB )   
+* Choose the URL Facebook will see - Target URL    
+* Add Real URL - Default URL    
 
 
 ## Technology
