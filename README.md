@@ -7,7 +7,9 @@
 ## History
 > This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
 thanks to the security research efforts of Venomo under the WokeWorld Project 2020.
+Exploitation Dissection Video - https://m.youtube.com/watch?v=9XD9ODDT2hg&t=1s
     
+
 ## Updates on report     
 > Facebook Like Jacking Successfully performed 7 November 2020 using a Cross-Site Request Forgery to the sister website mbasic.facebook   
 * Load Facebook in mbasic.facebook.com    
