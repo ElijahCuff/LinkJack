@@ -1,6 +1,6 @@
 # LinkJack
 
-### LinkJack is a customisable URL Honey Trap System that has advanced device recognition features for anybody that loads a constructed link.
+### LinkJack is a customisable URL Honey Trap & Masquerade System that has advanced device recognition features for anybody that loads a constructed link.
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://linkstats.ml) 
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
