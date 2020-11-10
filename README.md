@@ -9,7 +9,7 @@
 thanks to the security research efforts of Venomo under the WokeWorld Project 2020.
     
 ## Updates on report     
-> Facebook Like Jacking Successfully performed 7 November 2020    
+> Facebook Like Jacking Successfully performed 7 November 2020 using a Cross-Site Request Forgery to the sister website mbasic.facebook   
 * Load Facebook in mbasic.facebook.com    
 * Go to the desired Page to Like Jack    
 * Hold ( Long Press ) on Like button and Select Copy URL    
