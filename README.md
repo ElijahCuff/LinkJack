@@ -5,9 +5,15 @@
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
 ## History
-> This was originally designed for a security report to facebook, however Facebook said that this wasn't a concern toward security - since then it has slowly evolved over time to become a powerful visitor tracking service using a combination of other free services. 
-thanks to the security research efforts of Venomo under the WokeWorld Project 2020.
-Exploitation Dissection Video - https://m.youtube.com/watch?v=9XD9ODDT2hg&t=1s
+> Link Jack or LinkJack ( LJ ) is an ongoing research project into the dangers of redirection scripts in relation to security on Facebook. it initially started in late 2016 as i accidentally found the possibility attempting to make my own URL Shortening service, it was quickly apparent that Facebook users could be honey trapped for IP Address harvesting, further research uncovered a vast amount of vulnerability in the Facebook Link Shim system that allowed SSRF, CSRF, Post Spoofing, Click Hijacking among others... some have been given CVE's and other's have not.
+The reasons as to why some have not been accepted as Vulnerability is almost hilarious "We can't fix it, therefore it's not eligible".    
+    
+Exploit Dissection Video - https://m.youtube.com/watch?v=9XD9ODDT2hg&t=1s      
+Performing Exploit on GitHub ReadMe File - https://youtu.be/dLAcBkTS14Q      
+Performing Exploit on Facebook - https://m.youtube.com/watch?v=XbDv4PsnBnk&t=11s    
+Using Exploit with Spoof Facebook Log-in -  https://m.youtube.com/watch?v=sxDUVnRnYk8    
+Facebook Responsibility Information -   https://youtu.be/nQ2iXNyFFEM    
+
     
 
 ## Updates on report     
