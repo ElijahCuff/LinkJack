@@ -44,7 +44,7 @@ GFID  Facebook GFID is also time limited to the same cookie expirations.
    
 
 ## Facebook Post Spoofing   
-* Set Target as ( Facebook, FB )   
+* Set Target as ( facebookexternalhit )   
 * Choose the URL Facebook will see - Target URL    
 * Add Real URL - Default URL    
 
