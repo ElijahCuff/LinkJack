@@ -48,6 +48,11 @@ GFID  Facebook GFID is also time limited to the same cookie expirations.
 * Choose the URL Facebook will see - Target URL    
 * Add Real URL - Default URL    
 
+## Bit.ly Post Spoofing   
+* Set Target as ( bitlybot )   
+* Choose the URL Bitly will see - Target URL    
+* Add Real URL - Default URL    
+
 
 ## Technology
 * PHP 7
