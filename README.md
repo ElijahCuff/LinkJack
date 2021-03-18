@@ -5,9 +5,24 @@
 ![screen](https://i.imgur.com/CetGtaL.jpg)
 
 ## History
-> Link Jack or LinkJack ( LJ ) is an ongoing research project into the dangers of redirection scripts in relation to security on Facebook. it initially started in late 2016 as i accidentally found the possibility attempting to make my own URL Shortening service, it was quickly apparent that Facebook users could be honey trapped for IP Address harvesting, further research uncovered a vast amount of vulnerability in the Facebook Link Shim system that allowed SSRF, CSRF, Post Spoofing, Click Hijacking among others... some have been given CVE's and other's have not.
+> Link Jack or LinkJack ( LJ ) is an ongoing research project into the dangers of redirection scripts in relation to security on the internet. it initially started as a report to Facebook in late 2016 as i accidentally found the possibility attempting to make my own URL Shortening service, it was quickly apparent that Facebook users could be honey trapped for IP Address harvesting, further research uncovered a vast amount of vulnerability in the Facebook Link Shim system that allowed SSRF, CSRF, Post Spoofing, Click Hijacking among others... some have been given CVE's and other's have not.
 The reasons as to why some have not been accepted as Vulnerability is almost hilarious "We can't fix it, therefore it's not eligible".    
-    
+      
+  
+> The depths of this issue are becoming fully apparent in 2021 with SMS and MMS URL spoofing, Automatic link previews on smartphones and Email image inclusion.  
+  
+To date this vulnerability has been successfully at attacking the following technology,    
+• Facebook LinkShim - Spoofing, XSS & Click Jacking    
+• Bitly URL Link Shortening and - Spoofing   
+• Paid URL Shortening Services - Infinite Loop   
+• SMS Link Preview - IP, Agent Exposure   
+• MMS Image Links - IP, Agent Exposure   
+• Device Targeted Redirection - Images & URL's    
+• Country Target Redirection - IP Address Exposure     
+• Device ISP, Model, Make and General Network Location Exposure     
+• Vulnerability Assessment on User Agent via ExploitDB on GitHub    
+   
+   
 Exploit Dissection Video - https://m.youtube.com/watch?v=9XD9ODDT2hg&t=1s      
 Performing Exploit on GitHub ReadMe File - https://youtu.be/dLAcBkTS14Q      
 Performing Exploit on Facebook - https://m.youtube.com/watch?v=XbDv4PsnBnk&t=11s    
