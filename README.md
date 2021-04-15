@@ -9,6 +9,15 @@
 The reasons as to why some have not been accepted as Vulnerability is almost hilarious "We can't fix it, therefore it's not eligible".    
       
   
+## Additional Information   
+> URL Spoofing supported using email address masquerading, I'm using bit.ly for example because heroku is only temporary.    
+```
+FOR ALL YOU LEGIT RESEARCHERS.
+https://facebook.com／news／topics／topicID=ⓗⓐⓒⓚⓔ@bit.ly/32fQsHF  
+``` 
+  
+
+  
 > The depths of this issue are becoming fully apparent in 2021 with SMS and MMS URL spoofing, Automatic link previews on smartphones and Email image inclusion.  
   
 To date this vulnerability has been successfully at attacking the following technology,    
