@@ -14,6 +14,12 @@ The reasons as to why some have not been accepted as Vulnerability is almost hil
 ```
 FOR ALL YOU LEGIT RESEARCHERS.
 https://facebook.com／news／topics／topicID=ⓗⓐⓒⓚⓔ@bit.ly/32fQsHF  
+ 
+or - from free dns    
+
+www.facebook.com.spr.io 
+ 
+
 ``` 
   
 
